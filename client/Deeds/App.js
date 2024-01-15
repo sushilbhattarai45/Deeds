@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import colors from "./assets/styles/colors";
 import {
   useFonts,
   Poppins_100Thin,
@@ -56,6 +57,7 @@ export default function App() {
         <Text
           style={{
             fontSize: 18,
+            color: colors.Pink,
             fontFamily: "Poppins_600SemiBold",
           }}
         >
